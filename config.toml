@@ -1,4 +1,4 @@
-baseURL = 'https://avsr.gitlab.io/avsr.io/'
+baseURL = 'http://avsr.gitlab.io/avsr.github.io'
 languageCode = 'en-us'
 title = 'Avsr -- equal opportunity for all'
 theme = 'virgo'
