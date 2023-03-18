@@ -2,7 +2,9 @@
     <!-- 配置变量 -->
     {{- partial "_siteparams.html" . -}}
     <!-- 文档页眉 -->
+
     <h1 class="title">
+    <img src="imgs/logo-nobg.png" alt="logo" title="logo" width="220" height="60" />
         {{ if .Site.Params.en }}{{ .Title }}{{ else }}
             {{ if eq .Title "Virgo"}}一杯玺茶xt
             {{ else if eq .Title "Search"}}搜索

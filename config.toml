@@ -1,11 +1,12 @@
 baseURL = 'http://avsr-io.github.io'
 languageCode = 'en-us'
-title = 'Avsr -- Using AI to create equal opportunities for all'
+title = ' '
 # theme = 'virgo'
 
 
 [params]
     author = '???'
+    slogan = 'Using AI to create equal opportunities for all'
 
     en = false
 
