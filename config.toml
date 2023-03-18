@@ -1,4 +1,88 @@
 baseURL = 'http://avsr-io.github.io'
 languageCode = 'en-us'
-title = 'Avsr -- equal opportunity for all'
-theme = 'virgo'
+title = 'Avsr -- Using AI to create equal opportunities for all'
+# theme = 'virgo'
+
+
+[params]
+    author = '???'
+
+    en = false
+
+    dark = false
+
+    isSingleColumnOfPostList = true
+
+    hasActiveAnimate = true
+
+    hasActiveCool = false
+
+    hasFoldAllCodeBlocks = false
+
+    # Menu
+    # -----------------------------------
+    # Nav - nav.md or nav/index.md 
+    # Search - search.md or search/index.md
+    # Archive - archive.md or archive/index.md
+    # Wiki - posts/wiki.md or wiki/index.md
+    # About - about.md or about/index.md
+    # -----------------------------------
+    [params.menu]
+        [params.menu.00]
+            active = false
+            path = '/nav'
+            en = 'Nav'
+            icon = '🎯'
+        [params.menu.11]
+            active = false
+            path = '/search'
+            en = 'Search'
+            icon = '🔎'
+        [params.menu.22]
+            active = false
+            path = '/posts'
+            en = 'Posts'
+            icon = '📜'
+        [params.menu.33]
+            active = false
+            path = '/archive'
+            en = 'Archive'
+            icon = '🎉'
+        [params.menu.44]
+            active = false
+            path = '/posts/wiki'
+            en = 'Wiki'
+            zh = '百科'
+            icon = '🚀'
+        [params.menu.55]
+            active = false
+            path = '/about'
+            en = 'About'
+            zh = '关于'
+            icon = '🐌' 
+    
+    [params.img]
+        src = 'tux.jpg'
+        width = 999
+        words = "Stay hungry, Stay foolish. <br>Your time is limited, so don't waste it living someone else's life. <br>Have the courage to follow your heart and intuition. They somehow already know what you truly want to become."
+
+    [params.contact]
+        # twitter = 'loveminimal'             # e.g. https://twitter.com/loveminimal
+        # facebook = 'loveminimal'            # e.g. https://facebook.com/loveminimal
+        # youtube = 'loveminimal'             # e.g. https://youtube.com/user/loveminimal
+        # telegram = 'https://web.telegram.org/z/'
+    
+# Markdown
+[markup]
+    [markup.asciidocExt]
+        preserveTOC = true
+    [markup.highlight]
+        style = "github"
+        lineNos = false
+    [markup.tableOfContents]
+        endLevel = 3
+        ordered = false
+        startLevel = 2
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
